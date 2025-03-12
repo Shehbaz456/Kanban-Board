@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 0;
+}
+
+.board {
+    width: 23%;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 15px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+.card {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(209, 221, 243);
+    border-radius: 10px;
+    display: flex;
+    cursor: grab;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.del-task-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
